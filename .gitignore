@@ -1,0 +1,27 @@
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated data and model caches
+.DS_Store
+.streamlit/secrets.toml
+
+# Processed policy text and OCR cache can contain sensitive document contents.
+data/processed/*
+!data/processed/.gitkeep
+data/samples/*.pdf
